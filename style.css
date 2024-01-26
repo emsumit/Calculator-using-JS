@@ -1,0 +1,102 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap");
+body {
+  margin: 0;
+  font-family: "Inter", sans-serif;
+  background-color: #3b4664;
+  display: flex;
+  justify-content: center;
+}
+h1 {
+  color: white;
+  /* font-size: 2rem; */
+}
+div {
+  border-radius: 10px;
+}
+/* .container {
+  height: 600px;
+  width: 350px;
+} */
+.calculator {
+  width: 350px;
+  height: 600px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+.user-input {
+  padding-right: 20px;
+  background-color: #181f32;
+  color: white;
+  font-weight: bold;
+  text-align: right;
+  height: 90px;
+  width: 330px;
+  border-radius: 10px;
+  font-size: 2rem;
+  border: none;
+}
+.user-input::placeholder {
+  color: white;
+}
+.keypad {
+  background-color: #252d44;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+}
+.row {
+  width: 100%;
+  margin: 16px 0;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.key {
+  border-radius: 5px;
+  height: 40px;
+  width: 60px;
+  font-weight: bold;
+  background-color: #eae3db;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  user-select: none;
+}
+.delete-key {
+  height: 40px;
+  width: 60px;
+  border-radius: 5px;
+  background-color: #647299;
+  color: white;
+  font-weight: bold;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  user-select: none;
+}
+.reset-key {
+  height: 40px;
+  width: 150px;
+  border-radius: 5px;
+  background-color: #647299;
+  color: white;
+  font-weight: bold;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  user-select: none;
+}
+.answer-key {
+  height: 40px;
+  width: 150px;
+  border-radius: 5px;
+  background-color: #d13f30;
+  color: white;
+  font-weight: bold;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  user-select: none;
+}
