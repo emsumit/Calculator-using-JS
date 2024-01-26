@@ -33,7 +33,7 @@ keysArray.forEach((key) => {
     if (value == "." && decimalAdded) {
       return;
     }
-    if ("+-*/".includes(value)) {
+    if ("+-x/".includes(value)) {
       if (lastKeyIsOperator) {
         let initialValue = userInput.value;
         let updatedValue =
